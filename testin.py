@@ -6,7 +6,7 @@ def check_mysql_connection():
         cnx = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Jaswanth@123",
+            password="",
             database="pandeyji_eatery"
         )
         if cnx.is_connected():
